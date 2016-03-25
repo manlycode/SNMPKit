@@ -7,6 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "XISMobile_SNMP_PP.h"
 
 //! Project version number for SNMPKit.
 FOUNDATION_EXPORT double SNMPKitVersionNumber;
