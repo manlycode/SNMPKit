@@ -245,7 +245,7 @@
 		A79062D21CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
 		A79062D31CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
 		A79062D41CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; };
-		A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; };
+		A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; };
 		A79062D71CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A79062D81CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
@@ -578,6 +578,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C2C2F11CA5E237005002EC /* SNMPKit.h in Headers */,
+				A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
 				A79062061CA5C89F00EE600C /* idea.h in Headers */,
 				A79062361CA5C89F00EE600C /* smival.h in Headers */,
 				A79062271CA5C89F00EE600C /* oid_def.h in Headers */,
@@ -599,7 +600,6 @@
 				A79062D21CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */,
 				A790624E1CA5C89F00EE600C /* v3.h in Headers */,
 				A790623C1CA5C89F00EE600C /* snmperrs.h in Headers */,
-				A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
 				A790622A1CA5C89F00EE600C /* pdu.h in Headers */,
 				A79061FA1CA5C89F00EE600C /* ctr64.h in Headers */,
 				A790621B1CA5C89F00EE600C /* msgqueue.h in Headers */,
