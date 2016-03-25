@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>SNMPKit OSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SNMPKit iOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>SNMPKit tvOS.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>SNMPKit.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +28,21 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>A790615D1CA5C6A200EE600C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A790616D1CA5C76A00EE600C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A790617A1CA5C79100EE600C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A79061871CA5C7B400EE600C</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -7,17 +7,361 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A79061621CA5C6A200EE600C /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A79061E71CA5C89F00EE600C /* address.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061951CA5C89F00EE600C /* address.h */; };
+		A79061E81CA5C89F00EE600C /* address.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061951CA5C89F00EE600C /* address.h */; };
+		A79061E91CA5C89F00EE600C /* address.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061951CA5C89F00EE600C /* address.h */; };
+		A79061EA1CA5C89F00EE600C /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061961CA5C89F00EE600C /* asn1.h */; };
+		A79061EB1CA5C89F00EE600C /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061961CA5C89F00EE600C /* asn1.h */; };
+		A79061EC1CA5C89F00EE600C /* asn1.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061961CA5C89F00EE600C /* asn1.h */; };
+		A79061ED1CA5C89F00EE600C /* auth_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061971CA5C89F00EE600C /* auth_priv.h */; };
+		A79061EE1CA5C89F00EE600C /* auth_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061971CA5C89F00EE600C /* auth_priv.h */; };
+		A79061EF1CA5C89F00EE600C /* auth_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061971CA5C89F00EE600C /* auth_priv.h */; };
+		A79061F01CA5C89F00EE600C /* collect.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061981CA5C89F00EE600C /* collect.h */; };
+		A79061F11CA5C89F00EE600C /* collect.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061981CA5C89F00EE600C /* collect.h */; };
+		A79061F21CA5C89F00EE600C /* collect.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061981CA5C89F00EE600C /* collect.h */; };
+		A79061F31CA5C89F00EE600C /* config_snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061991CA5C89F00EE600C /* config_snmp_pp.h */; };
+		A79061F41CA5C89F00EE600C /* config_snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061991CA5C89F00EE600C /* config_snmp_pp.h */; };
+		A79061F51CA5C89F00EE600C /* config_snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061991CA5C89F00EE600C /* config_snmp_pp.h */; };
+		A79061F61CA5C89F00EE600C /* counter.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619A1CA5C89F00EE600C /* counter.h */; };
+		A79061F71CA5C89F00EE600C /* counter.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619A1CA5C89F00EE600C /* counter.h */; };
+		A79061F81CA5C89F00EE600C /* counter.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619A1CA5C89F00EE600C /* counter.h */; };
+		A79061F91CA5C89F00EE600C /* ctr64.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619B1CA5C89F00EE600C /* ctr64.h */; };
+		A79061FA1CA5C89F00EE600C /* ctr64.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619B1CA5C89F00EE600C /* ctr64.h */; };
+		A79061FB1CA5C89F00EE600C /* ctr64.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619B1CA5C89F00EE600C /* ctr64.h */; };
+		A79061FC1CA5C89F00EE600C /* eventlist.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619C1CA5C89F00EE600C /* eventlist.h */; };
+		A79061FD1CA5C89F00EE600C /* eventlist.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619C1CA5C89F00EE600C /* eventlist.h */; };
+		A79061FE1CA5C89F00EE600C /* eventlist.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619C1CA5C89F00EE600C /* eventlist.h */; };
+		A79061FF1CA5C89F00EE600C /* eventlistholder.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619D1CA5C89F00EE600C /* eventlistholder.h */; };
+		A79062001CA5C89F00EE600C /* eventlistholder.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619D1CA5C89F00EE600C /* eventlistholder.h */; };
+		A79062011CA5C89F00EE600C /* eventlistholder.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619D1CA5C89F00EE600C /* eventlistholder.h */; };
+		A79062021CA5C89F00EE600C /* gauge.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619E1CA5C89F00EE600C /* gauge.h */; };
+		A79062031CA5C89F00EE600C /* gauge.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619E1CA5C89F00EE600C /* gauge.h */; };
+		A79062041CA5C89F00EE600C /* gauge.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619E1CA5C89F00EE600C /* gauge.h */; };
+		A79062051CA5C89F00EE600C /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619F1CA5C89F00EE600C /* idea.h */; };
+		A79062061CA5C89F00EE600C /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619F1CA5C89F00EE600C /* idea.h */; };
+		A79062071CA5C89F00EE600C /* idea.h in Headers */ = {isa = PBXBuildFile; fileRef = A790619F1CA5C89F00EE600C /* idea.h */; };
+		A79062081CA5C89F00EE600C /* integer.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A01CA5C89F00EE600C /* integer.h */; };
+		A79062091CA5C89F00EE600C /* integer.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A01CA5C89F00EE600C /* integer.h */; };
+		A790620A1CA5C89F00EE600C /* integer.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A01CA5C89F00EE600C /* integer.h */; };
+		A790620B1CA5C89F00EE600C /* IPv6Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A11CA5C89F00EE600C /* IPv6Utility.h */; };
+		A790620C1CA5C89F00EE600C /* IPv6Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A11CA5C89F00EE600C /* IPv6Utility.h */; };
+		A790620D1CA5C89F00EE600C /* IPv6Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A11CA5C89F00EE600C /* IPv6Utility.h */; };
+		A790620E1CA5C89F00EE600C /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A21CA5C89F00EE600C /* log.h */; };
+		A790620F1CA5C89F00EE600C /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A21CA5C89F00EE600C /* log.h */; };
+		A79062101CA5C89F00EE600C /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A21CA5C89F00EE600C /* log.h */; };
+		A79062111CA5C89F00EE600C /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A31CA5C89F00EE600C /* md5.h */; };
+		A79062121CA5C89F00EE600C /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A31CA5C89F00EE600C /* md5.h */; };
+		A79062131CA5C89F00EE600C /* md5.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A31CA5C89F00EE600C /* md5.h */; };
+		A79062141CA5C89F00EE600C /* mp_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A41CA5C89F00EE600C /* mp_v3.h */; };
+		A79062151CA5C89F00EE600C /* mp_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A41CA5C89F00EE600C /* mp_v3.h */; };
+		A79062161CA5C89F00EE600C /* mp_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A41CA5C89F00EE600C /* mp_v3.h */; };
+		A79062171CA5C89F00EE600C /* msec.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A51CA5C89F00EE600C /* msec.h */; };
+		A79062181CA5C89F00EE600C /* msec.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A51CA5C89F00EE600C /* msec.h */; };
+		A79062191CA5C89F00EE600C /* msec.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A51CA5C89F00EE600C /* msec.h */; };
+		A790621A1CA5C89F00EE600C /* msgqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A61CA5C89F00EE600C /* msgqueue.h */; };
+		A790621B1CA5C89F00EE600C /* msgqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A61CA5C89F00EE600C /* msgqueue.h */; };
+		A790621C1CA5C89F00EE600C /* msgqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A61CA5C89F00EE600C /* msgqueue.h */; };
+		A790621D1CA5C89F00EE600C /* notifyqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A71CA5C89F00EE600C /* notifyqueue.h */; };
+		A790621E1CA5C89F00EE600C /* notifyqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A71CA5C89F00EE600C /* notifyqueue.h */; };
+		A790621F1CA5C89F00EE600C /* notifyqueue.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A71CA5C89F00EE600C /* notifyqueue.h */; };
+		A79062201CA5C89F00EE600C /* octet.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A81CA5C89F00EE600C /* octet.h */; };
+		A79062211CA5C89F00EE600C /* octet.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A81CA5C89F00EE600C /* octet.h */; };
+		A79062221CA5C89F00EE600C /* octet.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A81CA5C89F00EE600C /* octet.h */; };
+		A79062231CA5C89F00EE600C /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A91CA5C89F00EE600C /* oid.h */; };
+		A79062241CA5C89F00EE600C /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A91CA5C89F00EE600C /* oid.h */; };
+		A79062251CA5C89F00EE600C /* oid.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061A91CA5C89F00EE600C /* oid.h */; };
+		A79062261CA5C89F00EE600C /* oid_def.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AA1CA5C89F00EE600C /* oid_def.h */; };
+		A79062271CA5C89F00EE600C /* oid_def.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AA1CA5C89F00EE600C /* oid_def.h */; };
+		A79062281CA5C89F00EE600C /* oid_def.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AA1CA5C89F00EE600C /* oid_def.h */; };
+		A79062291CA5C89F00EE600C /* pdu.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AB1CA5C89F00EE600C /* pdu.h */; };
+		A790622A1CA5C89F00EE600C /* pdu.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AB1CA5C89F00EE600C /* pdu.h */; };
+		A790622B1CA5C89F00EE600C /* pdu.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AB1CA5C89F00EE600C /* pdu.h */; };
+		A790622C1CA5C89F00EE600C /* reentrant.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AC1CA5C89F00EE600C /* reentrant.h */; };
+		A790622D1CA5C89F00EE600C /* reentrant.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AC1CA5C89F00EE600C /* reentrant.h */; };
+		A790622E1CA5C89F00EE600C /* reentrant.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AC1CA5C89F00EE600C /* reentrant.h */; };
+		A790622F1CA5C89F00EE600C /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AD1CA5C89F00EE600C /* sha.h */; };
+		A79062301CA5C89F00EE600C /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AD1CA5C89F00EE600C /* sha.h */; };
+		A79062311CA5C89F00EE600C /* sha.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AD1CA5C89F00EE600C /* sha.h */; };
+		A79062321CA5C89F00EE600C /* smi.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AE1CA5C89F00EE600C /* smi.h */; };
+		A79062331CA5C89F00EE600C /* smi.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AE1CA5C89F00EE600C /* smi.h */; };
+		A79062341CA5C89F00EE600C /* smi.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AE1CA5C89F00EE600C /* smi.h */; };
+		A79062351CA5C89F00EE600C /* smival.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AF1CA5C89F00EE600C /* smival.h */; };
+		A79062361CA5C89F00EE600C /* smival.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AF1CA5C89F00EE600C /* smival.h */; };
+		A79062371CA5C89F00EE600C /* smival.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061AF1CA5C89F00EE600C /* smival.h */; };
+		A79062381CA5C89F00EE600C /* snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B01CA5C89F00EE600C /* snmp_pp.h */; };
+		A79062391CA5C89F00EE600C /* snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B01CA5C89F00EE600C /* snmp_pp.h */; };
+		A790623A1CA5C89F00EE600C /* snmp_pp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B01CA5C89F00EE600C /* snmp_pp.h */; };
+		A790623B1CA5C89F00EE600C /* snmperrs.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B11CA5C89F00EE600C /* snmperrs.h */; };
+		A790623C1CA5C89F00EE600C /* snmperrs.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B11CA5C89F00EE600C /* snmperrs.h */; };
+		A790623D1CA5C89F00EE600C /* snmperrs.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B11CA5C89F00EE600C /* snmperrs.h */; };
+		A790623E1CA5C89F00EE600C /* snmpmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B21CA5C89F00EE600C /* snmpmsg.h */; };
+		A790623F1CA5C89F00EE600C /* snmpmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B21CA5C89F00EE600C /* snmpmsg.h */; };
+		A79062401CA5C89F00EE600C /* snmpmsg.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B21CA5C89F00EE600C /* snmpmsg.h */; };
+		A79062411CA5C89F00EE600C /* target.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B31CA5C89F00EE600C /* target.h */; };
+		A79062421CA5C89F00EE600C /* target.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B31CA5C89F00EE600C /* target.h */; };
+		A79062431CA5C89F00EE600C /* target.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B31CA5C89F00EE600C /* target.h */; };
+		A79062441CA5C89F00EE600C /* timetick.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B41CA5C89F00EE600C /* timetick.h */; };
+		A79062451CA5C89F00EE600C /* timetick.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B41CA5C89F00EE600C /* timetick.h */; };
+		A79062461CA5C89F00EE600C /* timetick.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B41CA5C89F00EE600C /* timetick.h */; };
+		A79062471CA5C89F00EE600C /* usm_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B51CA5C89F00EE600C /* usm_v3.h */; };
+		A79062481CA5C89F00EE600C /* usm_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B51CA5C89F00EE600C /* usm_v3.h */; };
+		A79062491CA5C89F00EE600C /* usm_v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B51CA5C89F00EE600C /* usm_v3.h */; };
+		A790624A1CA5C89F00EE600C /* uxsnmp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B61CA5C89F00EE600C /* uxsnmp.h */; };
+		A790624B1CA5C89F00EE600C /* uxsnmp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B61CA5C89F00EE600C /* uxsnmp.h */; };
+		A790624C1CA5C89F00EE600C /* uxsnmp.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B61CA5C89F00EE600C /* uxsnmp.h */; };
+		A790624D1CA5C89F00EE600C /* v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B71CA5C89F00EE600C /* v3.h */; };
+		A790624E1CA5C89F00EE600C /* v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B71CA5C89F00EE600C /* v3.h */; };
+		A790624F1CA5C89F00EE600C /* v3.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B71CA5C89F00EE600C /* v3.h */; };
+		A79062501CA5C89F00EE600C /* vb.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B81CA5C89F00EE600C /* vb.h */; };
+		A79062511CA5C89F00EE600C /* vb.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B81CA5C89F00EE600C /* vb.h */; };
+		A79062521CA5C89F00EE600C /* vb.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061B81CA5C89F00EE600C /* vb.h */; };
+		A79062531CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A79061B91CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch */; };
+		A79062541CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A79061B91CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch */; };
+		A79062551CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A79061B91CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch */; };
+		A79062561CA5C89F00EE600C /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BB1CA5C89F00EE600C /* address.cpp */; };
+		A79062571CA5C89F00EE600C /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BB1CA5C89F00EE600C /* address.cpp */; };
+		A79062581CA5C89F00EE600C /* address.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BB1CA5C89F00EE600C /* address.cpp */; };
+		A79062591CA5C89F00EE600C /* asn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BC1CA5C89F00EE600C /* asn1.cpp */; };
+		A790625A1CA5C89F00EE600C /* asn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BC1CA5C89F00EE600C /* asn1.cpp */; };
+		A790625B1CA5C89F00EE600C /* asn1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BC1CA5C89F00EE600C /* asn1.cpp */; };
+		A790625C1CA5C89F00EE600C /* auth_priv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BD1CA5C89F00EE600C /* auth_priv.cpp */; };
+		A790625D1CA5C89F00EE600C /* auth_priv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BD1CA5C89F00EE600C /* auth_priv.cpp */; };
+		A790625E1CA5C89F00EE600C /* auth_priv.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BD1CA5C89F00EE600C /* auth_priv.cpp */; };
+		A790625F1CA5C89F00EE600C /* common.mk in Resources */ = {isa = PBXBuildFile; fileRef = A79061BE1CA5C89F00EE600C /* common.mk */; };
+		A79062601CA5C89F00EE600C /* common.mk in Resources */ = {isa = PBXBuildFile; fileRef = A79061BE1CA5C89F00EE600C /* common.mk */; };
+		A79062611CA5C89F00EE600C /* common.mk in Resources */ = {isa = PBXBuildFile; fileRef = A79061BE1CA5C89F00EE600C /* common.mk */; };
+		A79062621CA5C89F00EE600C /* counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BF1CA5C89F00EE600C /* counter.cpp */; };
+		A79062631CA5C89F00EE600C /* counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BF1CA5C89F00EE600C /* counter.cpp */; };
+		A79062641CA5C89F00EE600C /* counter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061BF1CA5C89F00EE600C /* counter.cpp */; };
+		A79062651CA5C89F00EE600C /* ctr64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C01CA5C89F00EE600C /* ctr64.cpp */; };
+		A79062661CA5C89F00EE600C /* ctr64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C01CA5C89F00EE600C /* ctr64.cpp */; };
+		A79062671CA5C89F00EE600C /* ctr64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C01CA5C89F00EE600C /* ctr64.cpp */; };
+		A79062681CA5C89F00EE600C /* eventlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C11CA5C89F00EE600C /* eventlist.cpp */; };
+		A79062691CA5C89F00EE600C /* eventlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C11CA5C89F00EE600C /* eventlist.cpp */; };
+		A790626A1CA5C89F00EE600C /* eventlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C11CA5C89F00EE600C /* eventlist.cpp */; };
+		A790626B1CA5C89F00EE600C /* eventlistholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C21CA5C89F00EE600C /* eventlistholder.cpp */; };
+		A790626C1CA5C89F00EE600C /* eventlistholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C21CA5C89F00EE600C /* eventlistholder.cpp */; };
+		A790626D1CA5C89F00EE600C /* eventlistholder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C21CA5C89F00EE600C /* eventlistholder.cpp */; };
+		A790626E1CA5C89F00EE600C /* gauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C31CA5C89F00EE600C /* gauge.cpp */; };
+		A790626F1CA5C89F00EE600C /* gauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C31CA5C89F00EE600C /* gauge.cpp */; };
+		A79062701CA5C89F00EE600C /* gauge.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C31CA5C89F00EE600C /* gauge.cpp */; };
+		A79062711CA5C89F00EE600C /* idea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C41CA5C89F00EE600C /* idea.cpp */; };
+		A79062721CA5C89F00EE600C /* idea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C41CA5C89F00EE600C /* idea.cpp */; };
+		A79062731CA5C89F00EE600C /* idea.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C41CA5C89F00EE600C /* idea.cpp */; };
+		A79062741CA5C89F00EE600C /* integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C51CA5C89F00EE600C /* integer.cpp */; };
+		A79062751CA5C89F00EE600C /* integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C51CA5C89F00EE600C /* integer.cpp */; };
+		A79062761CA5C89F00EE600C /* integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C51CA5C89F00EE600C /* integer.cpp */; };
+		A79062771CA5C89F00EE600C /* IPv6Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C61CA5C89F00EE600C /* IPv6Utility.cpp */; };
+		A79062781CA5C89F00EE600C /* IPv6Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C61CA5C89F00EE600C /* IPv6Utility.cpp */; };
+		A79062791CA5C89F00EE600C /* IPv6Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C61CA5C89F00EE600C /* IPv6Utility.cpp */; };
+		A790627A1CA5C89F00EE600C /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C71CA5C89F00EE600C /* log.cpp */; };
+		A790627B1CA5C89F00EE600C /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C71CA5C89F00EE600C /* log.cpp */; };
+		A790627C1CA5C89F00EE600C /* log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061C71CA5C89F00EE600C /* log.cpp */; };
+		A790627D1CA5C89F00EE600C /* Makefile.aix5 in Resources */ = {isa = PBXBuildFile; fileRef = A79061C81CA5C89F00EE600C /* Makefile.aix5 */; };
+		A790627E1CA5C89F00EE600C /* Makefile.aix5 in Resources */ = {isa = PBXBuildFile; fileRef = A79061C81CA5C89F00EE600C /* Makefile.aix5 */; };
+		A790627F1CA5C89F00EE600C /* Makefile.aix5 in Resources */ = {isa = PBXBuildFile; fileRef = A79061C81CA5C89F00EE600C /* Makefile.aix5 */; };
+		A79062801CA5C89F00EE600C /* Makefile.bcc in Resources */ = {isa = PBXBuildFile; fileRef = A79061C91CA5C89F00EE600C /* Makefile.bcc */; };
+		A79062811CA5C89F00EE600C /* Makefile.bcc in Resources */ = {isa = PBXBuildFile; fileRef = A79061C91CA5C89F00EE600C /* Makefile.bcc */; };
+		A79062821CA5C89F00EE600C /* Makefile.bcc in Resources */ = {isa = PBXBuildFile; fileRef = A79061C91CA5C89F00EE600C /* Makefile.bcc */; };
+		A79062831CA5C89F00EE600C /* Makefile.dunix in Resources */ = {isa = PBXBuildFile; fileRef = A79061CA1CA5C89F00EE600C /* Makefile.dunix */; };
+		A79062841CA5C89F00EE600C /* Makefile.dunix in Resources */ = {isa = PBXBuildFile; fileRef = A79061CA1CA5C89F00EE600C /* Makefile.dunix */; };
+		A79062851CA5C89F00EE600C /* Makefile.dunix in Resources */ = {isa = PBXBuildFile; fileRef = A79061CA1CA5C89F00EE600C /* Makefile.dunix */; };
+		A79062861CA5C89F00EE600C /* Makefile.gcc_solaris in Resources */ = {isa = PBXBuildFile; fileRef = A79061CB1CA5C89F00EE600C /* Makefile.gcc_solaris */; };
+		A79062871CA5C89F00EE600C /* Makefile.gcc_solaris in Resources */ = {isa = PBXBuildFile; fileRef = A79061CB1CA5C89F00EE600C /* Makefile.gcc_solaris */; };
+		A79062881CA5C89F00EE600C /* Makefile.gcc_solaris in Resources */ = {isa = PBXBuildFile; fileRef = A79061CB1CA5C89F00EE600C /* Makefile.gcc_solaris */; };
+		A79062891CA5C89F00EE600C /* Makefile.hpux11 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CC1CA5C89F00EE600C /* Makefile.hpux11 */; };
+		A790628A1CA5C89F00EE600C /* Makefile.hpux11 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CC1CA5C89F00EE600C /* Makefile.hpux11 */; };
+		A790628B1CA5C89F00EE600C /* Makefile.hpux11 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CC1CA5C89F00EE600C /* Makefile.hpux11 */; };
+		A790628C1CA5C89F00EE600C /* Makefile.iOS_armv6 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CD1CA5C89F00EE600C /* Makefile.iOS_armv6 */; };
+		A790628D1CA5C89F00EE600C /* Makefile.iOS_armv6 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CD1CA5C89F00EE600C /* Makefile.iOS_armv6 */; };
+		A790628E1CA5C89F00EE600C /* Makefile.iOS_armv6 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CD1CA5C89F00EE600C /* Makefile.iOS_armv6 */; };
+		A790628F1CA5C89F00EE600C /* Makefile.iOS_armv7 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CE1CA5C89F00EE600C /* Makefile.iOS_armv7 */; };
+		A79062901CA5C89F00EE600C /* Makefile.iOS_armv7 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CE1CA5C89F00EE600C /* Makefile.iOS_armv7 */; };
+		A79062911CA5C89F00EE600C /* Makefile.iOS_armv7 in Resources */ = {isa = PBXBuildFile; fileRef = A79061CE1CA5C89F00EE600C /* Makefile.iOS_armv7 */; };
+		A79062921CA5C89F00EE600C /* Makefile.iOS_Sim in Resources */ = {isa = PBXBuildFile; fileRef = A79061CF1CA5C89F00EE600C /* Makefile.iOS_Sim */; };
+		A79062931CA5C89F00EE600C /* Makefile.iOS_Sim in Resources */ = {isa = PBXBuildFile; fileRef = A79061CF1CA5C89F00EE600C /* Makefile.iOS_Sim */; };
+		A79062941CA5C89F00EE600C /* Makefile.iOS_Sim in Resources */ = {isa = PBXBuildFile; fileRef = A79061CF1CA5C89F00EE600C /* Makefile.iOS_Sim */; };
+		A79062951CA5C89F00EE600C /* Makefile.linux in Resources */ = {isa = PBXBuildFile; fileRef = A79061D01CA5C89F00EE600C /* Makefile.linux */; };
+		A79062961CA5C89F00EE600C /* Makefile.linux in Resources */ = {isa = PBXBuildFile; fileRef = A79061D01CA5C89F00EE600C /* Makefile.linux */; };
+		A79062971CA5C89F00EE600C /* Makefile.linux in Resources */ = {isa = PBXBuildFile; fileRef = A79061D01CA5C89F00EE600C /* Makefile.linux */; };
+		A79062981CA5C89F00EE600C /* Makefile.OSX in Resources */ = {isa = PBXBuildFile; fileRef = A79061D11CA5C89F00EE600C /* Makefile.OSX */; };
+		A79062991CA5C89F00EE600C /* Makefile.OSX in Resources */ = {isa = PBXBuildFile; fileRef = A79061D11CA5C89F00EE600C /* Makefile.OSX */; };
+		A790629A1CA5C89F00EE600C /* Makefile.OSX in Resources */ = {isa = PBXBuildFile; fileRef = A79061D11CA5C89F00EE600C /* Makefile.OSX */; };
+		A790629B1CA5C89F00EE600C /* Makefile.solaris in Resources */ = {isa = PBXBuildFile; fileRef = A79061D21CA5C89F00EE600C /* Makefile.solaris */; };
+		A790629C1CA5C89F00EE600C /* Makefile.solaris in Resources */ = {isa = PBXBuildFile; fileRef = A79061D21CA5C89F00EE600C /* Makefile.solaris */; };
+		A790629D1CA5C89F00EE600C /* Makefile.solaris in Resources */ = {isa = PBXBuildFile; fileRef = A79061D21CA5C89F00EE600C /* Makefile.solaris */; };
+		A790629E1CA5C89F00EE600C /* md5c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D31CA5C89F00EE600C /* md5c.cpp */; };
+		A790629F1CA5C89F00EE600C /* md5c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D31CA5C89F00EE600C /* md5c.cpp */; };
+		A79062A01CA5C89F00EE600C /* md5c.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D31CA5C89F00EE600C /* md5c.cpp */; };
+		A79062A11CA5C89F00EE600C /* mp_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D41CA5C89F00EE600C /* mp_v3.cpp */; };
+		A79062A21CA5C89F00EE600C /* mp_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D41CA5C89F00EE600C /* mp_v3.cpp */; };
+		A79062A31CA5C89F00EE600C /* mp_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D41CA5C89F00EE600C /* mp_v3.cpp */; };
+		A79062A41CA5C89F00EE600C /* msec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D51CA5C89F00EE600C /* msec.cpp */; };
+		A79062A51CA5C89F00EE600C /* msec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D51CA5C89F00EE600C /* msec.cpp */; };
+		A79062A61CA5C89F00EE600C /* msec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D51CA5C89F00EE600C /* msec.cpp */; };
+		A79062A71CA5C89F00EE600C /* msgqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D61CA5C89F00EE600C /* msgqueue.cpp */; };
+		A79062A81CA5C89F00EE600C /* msgqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D61CA5C89F00EE600C /* msgqueue.cpp */; };
+		A79062A91CA5C89F00EE600C /* msgqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D61CA5C89F00EE600C /* msgqueue.cpp */; };
+		A79062AA1CA5C89F00EE600C /* notifyqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D71CA5C89F00EE600C /* notifyqueue.cpp */; };
+		A79062AB1CA5C89F00EE600C /* notifyqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D71CA5C89F00EE600C /* notifyqueue.cpp */; };
+		A79062AC1CA5C89F00EE600C /* notifyqueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D71CA5C89F00EE600C /* notifyqueue.cpp */; };
+		A79062AD1CA5C89F00EE600C /* octet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D81CA5C89F00EE600C /* octet.cpp */; };
+		A79062AE1CA5C89F00EE600C /* octet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D81CA5C89F00EE600C /* octet.cpp */; };
+		A79062AF1CA5C89F00EE600C /* octet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D81CA5C89F00EE600C /* octet.cpp */; };
+		A79062B01CA5C89F00EE600C /* oid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D91CA5C89F00EE600C /* oid.cpp */; };
+		A79062B11CA5C89F00EE600C /* oid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D91CA5C89F00EE600C /* oid.cpp */; };
+		A79062B21CA5C89F00EE600C /* oid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061D91CA5C89F00EE600C /* oid.cpp */; };
+		A79062B31CA5C89F00EE600C /* pdu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DA1CA5C89F00EE600C /* pdu.cpp */; };
+		A79062B41CA5C89F00EE600C /* pdu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DA1CA5C89F00EE600C /* pdu.cpp */; };
+		A79062B51CA5C89F00EE600C /* pdu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DA1CA5C89F00EE600C /* pdu.cpp */; };
+		A79062B61CA5C89F00EE600C /* reentrant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DB1CA5C89F00EE600C /* reentrant.cpp */; };
+		A79062B71CA5C89F00EE600C /* reentrant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DB1CA5C89F00EE600C /* reentrant.cpp */; };
+		A79062B81CA5C89F00EE600C /* reentrant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DB1CA5C89F00EE600C /* reentrant.cpp */; };
+		A79062B91CA5C89F00EE600C /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DC1CA5C89F00EE600C /* sha.cpp */; };
+		A79062BA1CA5C89F00EE600C /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DC1CA5C89F00EE600C /* sha.cpp */; };
+		A79062BB1CA5C89F00EE600C /* sha.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DC1CA5C89F00EE600C /* sha.cpp */; };
+		A79062BC1CA5C89F00EE600C /* snmpmsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DD1CA5C89F00EE600C /* snmpmsg.cpp */; };
+		A79062BD1CA5C89F00EE600C /* snmpmsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DD1CA5C89F00EE600C /* snmpmsg.cpp */; };
+		A79062BE1CA5C89F00EE600C /* snmpmsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DD1CA5C89F00EE600C /* snmpmsg.cpp */; };
+		A79062BF1CA5C89F00EE600C /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DE1CA5C89F00EE600C /* target.cpp */; };
+		A79062C01CA5C89F00EE600C /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DE1CA5C89F00EE600C /* target.cpp */; };
+		A79062C11CA5C89F00EE600C /* target.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DE1CA5C89F00EE600C /* target.cpp */; };
+		A79062C21CA5C89F00EE600C /* timetick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DF1CA5C89F00EE600C /* timetick.cpp */; };
+		A79062C31CA5C89F00EE600C /* timetick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DF1CA5C89F00EE600C /* timetick.cpp */; };
+		A79062C41CA5C89F00EE600C /* timetick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061DF1CA5C89F00EE600C /* timetick.cpp */; };
+		A79062C51CA5C89F00EE600C /* usm_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E01CA5C89F00EE600C /* usm_v3.cpp */; };
+		A79062C61CA5C89F00EE600C /* usm_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E01CA5C89F00EE600C /* usm_v3.cpp */; };
+		A79062C71CA5C89F00EE600C /* usm_v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E01CA5C89F00EE600C /* usm_v3.cpp */; };
+		A79062C81CA5C89F00EE600C /* uxsnmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E11CA5C89F00EE600C /* uxsnmp.cpp */; };
+		A79062C91CA5C89F00EE600C /* uxsnmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E11CA5C89F00EE600C /* uxsnmp.cpp */; };
+		A79062CA1CA5C89F00EE600C /* uxsnmp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E11CA5C89F00EE600C /* uxsnmp.cpp */; };
+		A79062CB1CA5C89F00EE600C /* v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E21CA5C89F00EE600C /* v3.cpp */; };
+		A79062CC1CA5C89F00EE600C /* v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E21CA5C89F00EE600C /* v3.cpp */; };
+		A79062CD1CA5C89F00EE600C /* v3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E21CA5C89F00EE600C /* v3.cpp */; };
+		A79062CE1CA5C89F00EE600C /* vb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E31CA5C89F00EE600C /* vb.cpp */; };
+		A79062CF1CA5C89F00EE600C /* vb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E31CA5C89F00EE600C /* vb.cpp */; };
+		A79062D01CA5C89F00EE600C /* vb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E31CA5C89F00EE600C /* vb.cpp */; };
+		A79062D11CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
+		A79062D21CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
+		A79062D31CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
+		A79062D41CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; };
+		A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; };
+		A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; };
+		A79062D71CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
+		A79062D81CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
+		A79062D91CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
+		A79062DA1CA5CBCD00EE600C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79061631CA5C6A200EE600C /* Info.plist */; };
+		A79062DB1CA5CBCF00EE600C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79061631CA5C6A200EE600C /* Info.plist */; };
+		A79062DC1CA5CBD000EE600C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79061631CA5C6A200EE600C /* Info.plist */; };
+		A79062DD1CA5CBD500EE600C /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A790617F1CA5C79100EE600C /* Info-tvOS.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A790615E1CA5C6A200EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A79061611CA5C6A200EE600C /* SNMPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SNMPKit.h; sourceTree = "<group>"; };
-		A79061631CA5C6A200EE600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79061611CA5C6A200EE600C /* SNMPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNMPKit.h; path = SNMPKit/SNMPKit.h; sourceTree = "<group>"; };
+		A79061631CA5C6A200EE600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SNMPKit/Info.plist; sourceTree = "<group>"; };
+		A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SNMPKit iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790617B1CA5C79100EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790617F1CA5C79100EE600C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "SNMPKit tvOS/Info-tvOS.plist"; sourceTree = "<group>"; };
+		A79061881CA5C7B400EE600C /* SNMPKit OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SNMPKit OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79061951CA5C89F00EE600C /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
+		A79061961CA5C89F00EE600C /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		A79061971CA5C89F00EE600C /* auth_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_priv.h; sourceTree = "<group>"; };
+		A79061981CA5C89F00EE600C /* collect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = collect.h; sourceTree = "<group>"; };
+		A79061991CA5C89F00EE600C /* config_snmp_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config_snmp_pp.h; sourceTree = "<group>"; };
+		A790619A1CA5C89F00EE600C /* counter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = counter.h; sourceTree = "<group>"; };
+		A790619B1CA5C89F00EE600C /* ctr64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ctr64.h; sourceTree = "<group>"; };
+		A790619C1CA5C89F00EE600C /* eventlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlist.h; sourceTree = "<group>"; };
+		A790619D1CA5C89F00EE600C /* eventlistholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eventlistholder.h; sourceTree = "<group>"; };
+		A790619E1CA5C89F00EE600C /* gauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gauge.h; sourceTree = "<group>"; };
+		A790619F1CA5C89F00EE600C /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		A79061A01CA5C89F00EE600C /* integer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
+		A79061A11CA5C89F00EE600C /* IPv6Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPv6Utility.h; sourceTree = "<group>"; };
+		A79061A21CA5C89F00EE600C /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		A79061A31CA5C89F00EE600C /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		A79061A41CA5C89F00EE600C /* mp_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mp_v3.h; sourceTree = "<group>"; };
+		A79061A51CA5C89F00EE600C /* msec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msec.h; sourceTree = "<group>"; };
+		A79061A61CA5C89F00EE600C /* msgqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgqueue.h; sourceTree = "<group>"; };
+		A79061A71CA5C89F00EE600C /* notifyqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = notifyqueue.h; sourceTree = "<group>"; };
+		A79061A81CA5C89F00EE600C /* octet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = octet.h; sourceTree = "<group>"; };
+		A79061A91CA5C89F00EE600C /* oid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid.h; sourceTree = "<group>"; };
+		A79061AA1CA5C89F00EE600C /* oid_def.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oid_def.h; sourceTree = "<group>"; };
+		A79061AB1CA5C89F00EE600C /* pdu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pdu.h; sourceTree = "<group>"; };
+		A79061AC1CA5C89F00EE600C /* reentrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reentrant.h; sourceTree = "<group>"; };
+		A79061AD1CA5C89F00EE600C /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		A79061AE1CA5C89F00EE600C /* smi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smi.h; sourceTree = "<group>"; };
+		A79061AF1CA5C89F00EE600C /* smival.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smival.h; sourceTree = "<group>"; };
+		A79061B01CA5C89F00EE600C /* snmp_pp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmp_pp.h; sourceTree = "<group>"; };
+		A79061B11CA5C89F00EE600C /* snmperrs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmperrs.h; sourceTree = "<group>"; };
+		A79061B21CA5C89F00EE600C /* snmpmsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = snmpmsg.h; sourceTree = "<group>"; };
+		A79061B31CA5C89F00EE600C /* target.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = target.h; sourceTree = "<group>"; };
+		A79061B41CA5C89F00EE600C /* timetick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timetick.h; sourceTree = "<group>"; };
+		A79061B51CA5C89F00EE600C /* usm_v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = usm_v3.h; sourceTree = "<group>"; };
+		A79061B61CA5C89F00EE600C /* uxsnmp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uxsnmp.h; sourceTree = "<group>"; };
+		A79061B71CA5C89F00EE600C /* v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v3.h; sourceTree = "<group>"; };
+		A79061B81CA5C89F00EE600C /* vb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vb.h; sourceTree = "<group>"; };
+		A79061B91CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Mobile SNMP++-Prefix.pch"; sourceTree = "<group>"; };
+		A79061BB1CA5C89F00EE600C /* address.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = address.cpp; sourceTree = "<group>"; };
+		A79061BC1CA5C89F00EE600C /* asn1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = asn1.cpp; sourceTree = "<group>"; };
+		A79061BD1CA5C89F00EE600C /* auth_priv.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = auth_priv.cpp; sourceTree = "<group>"; };
+		A79061BE1CA5C89F00EE600C /* common.mk */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = common.mk; sourceTree = "<group>"; };
+		A79061BF1CA5C89F00EE600C /* counter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = counter.cpp; sourceTree = "<group>"; };
+		A79061C01CA5C89F00EE600C /* ctr64.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ctr64.cpp; sourceTree = "<group>"; };
+		A79061C11CA5C89F00EE600C /* eventlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlist.cpp; sourceTree = "<group>"; };
+		A79061C21CA5C89F00EE600C /* eventlistholder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eventlistholder.cpp; sourceTree = "<group>"; };
+		A79061C31CA5C89F00EE600C /* gauge.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gauge.cpp; sourceTree = "<group>"; };
+		A79061C41CA5C89F00EE600C /* idea.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = idea.cpp; sourceTree = "<group>"; };
+		A79061C51CA5C89F00EE600C /* integer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = integer.cpp; sourceTree = "<group>"; };
+		A79061C61CA5C89F00EE600C /* IPv6Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IPv6Utility.cpp; sourceTree = "<group>"; };
+		A79061C71CA5C89F00EE600C /* log.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = log.cpp; sourceTree = "<group>"; };
+		A79061C81CA5C89F00EE600C /* Makefile.aix5 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.aix5; sourceTree = "<group>"; };
+		A79061C91CA5C89F00EE600C /* Makefile.bcc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.bcc; sourceTree = "<group>"; };
+		A79061CA1CA5C89F00EE600C /* Makefile.dunix */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.dunix; sourceTree = "<group>"; };
+		A79061CB1CA5C89F00EE600C /* Makefile.gcc_solaris */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.gcc_solaris; sourceTree = "<group>"; };
+		A79061CC1CA5C89F00EE600C /* Makefile.hpux11 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.hpux11; sourceTree = "<group>"; };
+		A79061CD1CA5C89F00EE600C /* Makefile.iOS_armv6 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.iOS_armv6; sourceTree = "<group>"; };
+		A79061CE1CA5C89F00EE600C /* Makefile.iOS_armv7 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.iOS_armv7; sourceTree = "<group>"; };
+		A79061CF1CA5C89F00EE600C /* Makefile.iOS_Sim */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.iOS_Sim; sourceTree = "<group>"; };
+		A79061D01CA5C89F00EE600C /* Makefile.linux */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.linux; sourceTree = "<group>"; };
+		A79061D11CA5C89F00EE600C /* Makefile.OSX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.OSX; sourceTree = "<group>"; };
+		A79061D21CA5C89F00EE600C /* Makefile.solaris */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.solaris; sourceTree = "<group>"; };
+		A79061D31CA5C89F00EE600C /* md5c.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5c.cpp; sourceTree = "<group>"; };
+		A79061D41CA5C89F00EE600C /* mp_v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mp_v3.cpp; sourceTree = "<group>"; };
+		A79061D51CA5C89F00EE600C /* msec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msec.cpp; sourceTree = "<group>"; };
+		A79061D61CA5C89F00EE600C /* msgqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = msgqueue.cpp; sourceTree = "<group>"; };
+		A79061D71CA5C89F00EE600C /* notifyqueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = notifyqueue.cpp; sourceTree = "<group>"; };
+		A79061D81CA5C89F00EE600C /* octet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = octet.cpp; sourceTree = "<group>"; };
+		A79061D91CA5C89F00EE600C /* oid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = oid.cpp; sourceTree = "<group>"; };
+		A79061DA1CA5C89F00EE600C /* pdu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pdu.cpp; sourceTree = "<group>"; };
+		A79061DB1CA5C89F00EE600C /* reentrant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reentrant.cpp; sourceTree = "<group>"; };
+		A79061DC1CA5C89F00EE600C /* sha.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sha.cpp; sourceTree = "<group>"; };
+		A79061DD1CA5C89F00EE600C /* snmpmsg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = snmpmsg.cpp; sourceTree = "<group>"; };
+		A79061DE1CA5C89F00EE600C /* target.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = target.cpp; sourceTree = "<group>"; };
+		A79061DF1CA5C89F00EE600C /* timetick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timetick.cpp; sourceTree = "<group>"; };
+		A79061E01CA5C89F00EE600C /* usm_v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = usm_v3.cpp; sourceTree = "<group>"; };
+		A79061E11CA5C89F00EE600C /* uxsnmp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uxsnmp.cpp; sourceTree = "<group>"; };
+		A79061E21CA5C89F00EE600C /* v3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = v3.cpp; sourceTree = "<group>"; };
+		A79061E31CA5C89F00EE600C /* vb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vb.cpp; sourceTree = "<group>"; };
+		A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIS_SNMPDefinitions.h; sourceTree = "<group>"; };
+		A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XISMobile_SNMP_PP.h; sourceTree = "<group>"; };
+		A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XISMobile_SNMP_PP.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		A790615A1CA5C6A200EE600C /* Frameworks */ = {
+		A790616A1CA5C76A00EE600C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061771CA5C79100EE600C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061841CA5C7B400EE600C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -30,7 +374,8 @@
 		A79061541CA5C6A200EE600C = {
 			isa = PBXGroup;
 			children = (
-				A79061601CA5C6A200EE600C /* SNMPKit */,
+				A79061901CA5C83D00EE600C /* Source */,
+				A79061911CA5C84B00EE600C /* Supporting Files */,
 				A790615F1CA5C6A200EE600C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -38,50 +383,339 @@
 		A790615F1CA5C6A200EE600C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A790615E1CA5C6A200EE600C /* SNMPKit.framework */,
+				A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */,
+				A790617B1CA5C79100EE600C /* SNMPKit.framework */,
+				A79061881CA5C7B400EE600C /* SNMPKit OSX.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A79061601CA5C6A200EE600C /* SNMPKit */ = {
+		A79061901CA5C83D00EE600C /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				A79061921CA5C89F00EE600C /* Mobile SNMP++ */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		A79061911CA5C84B00EE600C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				A79061611CA5C6A200EE600C /* SNMPKit.h */,
 				A79061631CA5C6A200EE600C /* Info.plist */,
+				A790617F1CA5C79100EE600C /* Info-tvOS.plist */,
 			);
-			path = SNMPKit;
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A79061921CA5C89F00EE600C /* Mobile SNMP++ */ = {
+			isa = PBXGroup;
+			children = (
+				A79061931CA5C89F00EE600C /* include */,
+				A79061B91CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch */,
+				A79061BA1CA5C89F00EE600C /* src */,
+				A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */,
+				A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */,
+				A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */,
+			);
+			path = "Mobile SNMP++";
+			sourceTree = "<group>";
+		};
+		A79061931CA5C89F00EE600C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A79061941CA5C89F00EE600C /* snmp_pp */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A79061941CA5C89F00EE600C /* snmp_pp */ = {
+			isa = PBXGroup;
+			children = (
+				A79061951CA5C89F00EE600C /* address.h */,
+				A79061961CA5C89F00EE600C /* asn1.h */,
+				A79061971CA5C89F00EE600C /* auth_priv.h */,
+				A79061981CA5C89F00EE600C /* collect.h */,
+				A79061991CA5C89F00EE600C /* config_snmp_pp.h */,
+				A790619A1CA5C89F00EE600C /* counter.h */,
+				A790619B1CA5C89F00EE600C /* ctr64.h */,
+				A790619C1CA5C89F00EE600C /* eventlist.h */,
+				A790619D1CA5C89F00EE600C /* eventlistholder.h */,
+				A790619E1CA5C89F00EE600C /* gauge.h */,
+				A790619F1CA5C89F00EE600C /* idea.h */,
+				A79061A01CA5C89F00EE600C /* integer.h */,
+				A79061A11CA5C89F00EE600C /* IPv6Utility.h */,
+				A79061A21CA5C89F00EE600C /* log.h */,
+				A79061A31CA5C89F00EE600C /* md5.h */,
+				A79061A41CA5C89F00EE600C /* mp_v3.h */,
+				A79061A51CA5C89F00EE600C /* msec.h */,
+				A79061A61CA5C89F00EE600C /* msgqueue.h */,
+				A79061A71CA5C89F00EE600C /* notifyqueue.h */,
+				A79061A81CA5C89F00EE600C /* octet.h */,
+				A79061A91CA5C89F00EE600C /* oid.h */,
+				A79061AA1CA5C89F00EE600C /* oid_def.h */,
+				A79061AB1CA5C89F00EE600C /* pdu.h */,
+				A79061AC1CA5C89F00EE600C /* reentrant.h */,
+				A79061AD1CA5C89F00EE600C /* sha.h */,
+				A79061AE1CA5C89F00EE600C /* smi.h */,
+				A79061AF1CA5C89F00EE600C /* smival.h */,
+				A79061B01CA5C89F00EE600C /* snmp_pp.h */,
+				A79061B11CA5C89F00EE600C /* snmperrs.h */,
+				A79061B21CA5C89F00EE600C /* snmpmsg.h */,
+				A79061B31CA5C89F00EE600C /* target.h */,
+				A79061B41CA5C89F00EE600C /* timetick.h */,
+				A79061B51CA5C89F00EE600C /* usm_v3.h */,
+				A79061B61CA5C89F00EE600C /* uxsnmp.h */,
+				A79061B71CA5C89F00EE600C /* v3.h */,
+				A79061B81CA5C89F00EE600C /* vb.h */,
+			);
+			path = snmp_pp;
+			sourceTree = "<group>";
+		};
+		A79061BA1CA5C89F00EE600C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				A79061BB1CA5C89F00EE600C /* address.cpp */,
+				A79061BC1CA5C89F00EE600C /* asn1.cpp */,
+				A79061BD1CA5C89F00EE600C /* auth_priv.cpp */,
+				A79061BE1CA5C89F00EE600C /* common.mk */,
+				A79061BF1CA5C89F00EE600C /* counter.cpp */,
+				A79061C01CA5C89F00EE600C /* ctr64.cpp */,
+				A79061C11CA5C89F00EE600C /* eventlist.cpp */,
+				A79061C21CA5C89F00EE600C /* eventlistholder.cpp */,
+				A79061C31CA5C89F00EE600C /* gauge.cpp */,
+				A79061C41CA5C89F00EE600C /* idea.cpp */,
+				A79061C51CA5C89F00EE600C /* integer.cpp */,
+				A79061C61CA5C89F00EE600C /* IPv6Utility.cpp */,
+				A79061C71CA5C89F00EE600C /* log.cpp */,
+				A79061C81CA5C89F00EE600C /* Makefile.aix5 */,
+				A79061C91CA5C89F00EE600C /* Makefile.bcc */,
+				A79061CA1CA5C89F00EE600C /* Makefile.dunix */,
+				A79061CB1CA5C89F00EE600C /* Makefile.gcc_solaris */,
+				A79061CC1CA5C89F00EE600C /* Makefile.hpux11 */,
+				A79061CD1CA5C89F00EE600C /* Makefile.iOS_armv6 */,
+				A79061CE1CA5C89F00EE600C /* Makefile.iOS_armv7 */,
+				A79061CF1CA5C89F00EE600C /* Makefile.iOS_Sim */,
+				A79061D01CA5C89F00EE600C /* Makefile.linux */,
+				A79061D11CA5C89F00EE600C /* Makefile.OSX */,
+				A79061D21CA5C89F00EE600C /* Makefile.solaris */,
+				A79061D31CA5C89F00EE600C /* md5c.cpp */,
+				A79061D41CA5C89F00EE600C /* mp_v3.cpp */,
+				A79061D51CA5C89F00EE600C /* msec.cpp */,
+				A79061D61CA5C89F00EE600C /* msgqueue.cpp */,
+				A79061D71CA5C89F00EE600C /* notifyqueue.cpp */,
+				A79061D81CA5C89F00EE600C /* octet.cpp */,
+				A79061D91CA5C89F00EE600C /* oid.cpp */,
+				A79061DA1CA5C89F00EE600C /* pdu.cpp */,
+				A79061DB1CA5C89F00EE600C /* reentrant.cpp */,
+				A79061DC1CA5C89F00EE600C /* sha.cpp */,
+				A79061DD1CA5C89F00EE600C /* snmpmsg.cpp */,
+				A79061DE1CA5C89F00EE600C /* target.cpp */,
+				A79061DF1CA5C89F00EE600C /* timetick.cpp */,
+				A79061E01CA5C89F00EE600C /* usm_v3.cpp */,
+				A79061E11CA5C89F00EE600C /* uxsnmp.cpp */,
+				A79061E21CA5C89F00EE600C /* v3.cpp */,
+				A79061E31CA5C89F00EE600C /* vb.cpp */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A790615B1CA5C6A200EE600C /* Headers */ = {
+		A790616B1CA5C76A00EE600C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79061621CA5C6A200EE600C /* SNMPKit.h in Headers */,
+				A79062051CA5C89F00EE600C /* idea.h in Headers */,
+				A79062351CA5C89F00EE600C /* smival.h in Headers */,
+				A79062261CA5C89F00EE600C /* oid_def.h in Headers */,
+				A790620E1CA5C89F00EE600C /* log.h in Headers */,
+				A790622F1CA5C89F00EE600C /* sha.h in Headers */,
+				A79062141CA5C89F00EE600C /* mp_v3.h in Headers */,
+				A79062171CA5C89F00EE600C /* msec.h in Headers */,
+				A79062201CA5C89F00EE600C /* octet.h in Headers */,
+				A79061FF1CA5C89F00EE600C /* eventlistholder.h in Headers */,
+				A79061ED1CA5C89F00EE600C /* auth_priv.h in Headers */,
+				A79061F01CA5C89F00EE600C /* collect.h in Headers */,
+				A79061E71CA5C89F00EE600C /* address.h in Headers */,
+				A79062381CA5C89F00EE600C /* snmp_pp.h in Headers */,
+				A79062111CA5C89F00EE600C /* md5.h in Headers */,
+				A79062081CA5C89F00EE600C /* integer.h in Headers */,
+				A790622C1CA5C89F00EE600C /* reentrant.h in Headers */,
+				A79062321CA5C89F00EE600C /* smi.h in Headers */,
+				A790620B1CA5C89F00EE600C /* IPv6Utility.h in Headers */,
+				A79062D11CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */,
+				A790624D1CA5C89F00EE600C /* v3.h in Headers */,
+				A790623B1CA5C89F00EE600C /* snmperrs.h in Headers */,
+				A79062D41CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
+				A79062291CA5C89F00EE600C /* pdu.h in Headers */,
+				A79061F91CA5C89F00EE600C /* ctr64.h in Headers */,
+				A790621A1CA5C89F00EE600C /* msgqueue.h in Headers */,
+				A79061F61CA5C89F00EE600C /* counter.h in Headers */,
+				A79062231CA5C89F00EE600C /* oid.h in Headers */,
+				A790621D1CA5C89F00EE600C /* notifyqueue.h in Headers */,
+				A79062531CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch in Headers */,
+				A79062411CA5C89F00EE600C /* target.h in Headers */,
+				A79062441CA5C89F00EE600C /* timetick.h in Headers */,
+				A79061EA1CA5C89F00EE600C /* asn1.h in Headers */,
+				A79062471CA5C89F00EE600C /* usm_v3.h in Headers */,
+				A79061F31CA5C89F00EE600C /* config_snmp_pp.h in Headers */,
+				A79062021CA5C89F00EE600C /* gauge.h in Headers */,
+				A790624A1CA5C89F00EE600C /* uxsnmp.h in Headers */,
+				A790623E1CA5C89F00EE600C /* snmpmsg.h in Headers */,
+				A79062501CA5C89F00EE600C /* vb.h in Headers */,
+				A79061FC1CA5C89F00EE600C /* eventlist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061781CA5C79100EE600C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79062061CA5C89F00EE600C /* idea.h in Headers */,
+				A79062361CA5C89F00EE600C /* smival.h in Headers */,
+				A79062271CA5C89F00EE600C /* oid_def.h in Headers */,
+				A790620F1CA5C89F00EE600C /* log.h in Headers */,
+				A79062301CA5C89F00EE600C /* sha.h in Headers */,
+				A79062151CA5C89F00EE600C /* mp_v3.h in Headers */,
+				A79062181CA5C89F00EE600C /* msec.h in Headers */,
+				A79062211CA5C89F00EE600C /* octet.h in Headers */,
+				A79062001CA5C89F00EE600C /* eventlistholder.h in Headers */,
+				A79061EE1CA5C89F00EE600C /* auth_priv.h in Headers */,
+				A79061F11CA5C89F00EE600C /* collect.h in Headers */,
+				A79061E81CA5C89F00EE600C /* address.h in Headers */,
+				A79062391CA5C89F00EE600C /* snmp_pp.h in Headers */,
+				A79062121CA5C89F00EE600C /* md5.h in Headers */,
+				A79062091CA5C89F00EE600C /* integer.h in Headers */,
+				A790622D1CA5C89F00EE600C /* reentrant.h in Headers */,
+				A79062331CA5C89F00EE600C /* smi.h in Headers */,
+				A790620C1CA5C89F00EE600C /* IPv6Utility.h in Headers */,
+				A79062D21CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */,
+				A790624E1CA5C89F00EE600C /* v3.h in Headers */,
+				A790623C1CA5C89F00EE600C /* snmperrs.h in Headers */,
+				A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
+				A790622A1CA5C89F00EE600C /* pdu.h in Headers */,
+				A79061FA1CA5C89F00EE600C /* ctr64.h in Headers */,
+				A790621B1CA5C89F00EE600C /* msgqueue.h in Headers */,
+				A79061F71CA5C89F00EE600C /* counter.h in Headers */,
+				A79062241CA5C89F00EE600C /* oid.h in Headers */,
+				A790621E1CA5C89F00EE600C /* notifyqueue.h in Headers */,
+				A79062541CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch in Headers */,
+				A79062421CA5C89F00EE600C /* target.h in Headers */,
+				A79062451CA5C89F00EE600C /* timetick.h in Headers */,
+				A79061EB1CA5C89F00EE600C /* asn1.h in Headers */,
+				A79062481CA5C89F00EE600C /* usm_v3.h in Headers */,
+				A79061F41CA5C89F00EE600C /* config_snmp_pp.h in Headers */,
+				A79062031CA5C89F00EE600C /* gauge.h in Headers */,
+				A790624B1CA5C89F00EE600C /* uxsnmp.h in Headers */,
+				A790623F1CA5C89F00EE600C /* snmpmsg.h in Headers */,
+				A79062511CA5C89F00EE600C /* vb.h in Headers */,
+				A79061FD1CA5C89F00EE600C /* eventlist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061851CA5C7B400EE600C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79062071CA5C89F00EE600C /* idea.h in Headers */,
+				A79062371CA5C89F00EE600C /* smival.h in Headers */,
+				A79062281CA5C89F00EE600C /* oid_def.h in Headers */,
+				A79062101CA5C89F00EE600C /* log.h in Headers */,
+				A79062311CA5C89F00EE600C /* sha.h in Headers */,
+				A79062161CA5C89F00EE600C /* mp_v3.h in Headers */,
+				A79062191CA5C89F00EE600C /* msec.h in Headers */,
+				A79062221CA5C89F00EE600C /* octet.h in Headers */,
+				A79062011CA5C89F00EE600C /* eventlistholder.h in Headers */,
+				A79061EF1CA5C89F00EE600C /* auth_priv.h in Headers */,
+				A79061F21CA5C89F00EE600C /* collect.h in Headers */,
+				A79061E91CA5C89F00EE600C /* address.h in Headers */,
+				A790623A1CA5C89F00EE600C /* snmp_pp.h in Headers */,
+				A79062131CA5C89F00EE600C /* md5.h in Headers */,
+				A790620A1CA5C89F00EE600C /* integer.h in Headers */,
+				A790622E1CA5C89F00EE600C /* reentrant.h in Headers */,
+				A79062341CA5C89F00EE600C /* smi.h in Headers */,
+				A790620D1CA5C89F00EE600C /* IPv6Utility.h in Headers */,
+				A79062D31CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */,
+				A790624F1CA5C89F00EE600C /* v3.h in Headers */,
+				A790623D1CA5C89F00EE600C /* snmperrs.h in Headers */,
+				A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
+				A790622B1CA5C89F00EE600C /* pdu.h in Headers */,
+				A79061FB1CA5C89F00EE600C /* ctr64.h in Headers */,
+				A790621C1CA5C89F00EE600C /* msgqueue.h in Headers */,
+				A79061F81CA5C89F00EE600C /* counter.h in Headers */,
+				A79062251CA5C89F00EE600C /* oid.h in Headers */,
+				A790621F1CA5C89F00EE600C /* notifyqueue.h in Headers */,
+				A79062551CA5C89F00EE600C /* Mobile SNMP++-Prefix.pch in Headers */,
+				A79062431CA5C89F00EE600C /* target.h in Headers */,
+				A79062461CA5C89F00EE600C /* timetick.h in Headers */,
+				A79061EC1CA5C89F00EE600C /* asn1.h in Headers */,
+				A79062491CA5C89F00EE600C /* usm_v3.h in Headers */,
+				A79061F51CA5C89F00EE600C /* config_snmp_pp.h in Headers */,
+				A79062041CA5C89F00EE600C /* gauge.h in Headers */,
+				A790624C1CA5C89F00EE600C /* uxsnmp.h in Headers */,
+				A79062401CA5C89F00EE600C /* snmpmsg.h in Headers */,
+				A79062521CA5C89F00EE600C /* vb.h in Headers */,
+				A79061FE1CA5C89F00EE600C /* eventlist.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A790615D1CA5C6A200EE600C /* SNMPKit */ = {
+		A790616D1CA5C76A00EE600C /* SNMPKit iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A79061661CA5C6A200EE600C /* Build configuration list for PBXNativeTarget "SNMPKit" */;
+			buildConfigurationList = A79061731CA5C76A00EE600C /* Build configuration list for PBXNativeTarget "SNMPKit iOS" */;
 			buildPhases = (
-				A79061591CA5C6A200EE600C /* Sources */,
-				A790615A1CA5C6A200EE600C /* Frameworks */,
-				A790615B1CA5C6A200EE600C /* Headers */,
-				A790615C1CA5C6A200EE600C /* Resources */,
+				A79061691CA5C76A00EE600C /* Sources */,
+				A790616A1CA5C76A00EE600C /* Frameworks */,
+				A790616B1CA5C76A00EE600C /* Headers */,
+				A790616C1CA5C76A00EE600C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = SNMPKit;
-			productName = SNMPKit;
-			productReference = A790615E1CA5C6A200EE600C /* SNMPKit.framework */;
+			name = "SNMPKit iOS";
+			productName = "SNMPKit iOS";
+			productReference = A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A790617A1CA5C79100EE600C /* SNMPKit tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79061801CA5C79100EE600C /* Build configuration list for PBXNativeTarget "SNMPKit tvOS" */;
+			buildPhases = (
+				A79061761CA5C79100EE600C /* Sources */,
+				A79061771CA5C79100EE600C /* Frameworks */,
+				A79061781CA5C79100EE600C /* Headers */,
+				A79061791CA5C79100EE600C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNMPKit tvOS";
+			productName = "SNMPKit tvOS";
+			productReference = A790617B1CA5C79100EE600C /* SNMPKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A79061871CA5C7B400EE600C /* SNMPKit OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A790618D1CA5C7B400EE600C /* Build configuration list for PBXNativeTarget "SNMPKit OSX" */;
+			buildPhases = (
+				A79061831CA5C7B400EE600C /* Sources */,
+				A79061841CA5C7B400EE600C /* Frameworks */,
+				A79061851CA5C7B400EE600C /* Headers */,
+				A79061861CA5C7B400EE600C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNMPKit OSX";
+			productName = "SNMPKit OSX";
+			productReference = A79061881CA5C7B400EE600C /* SNMPKit OSX.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -93,7 +727,13 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Manlycode Industries";
 				TargetAttributes = {
-					A790615D1CA5C6A200EE600C = {
+					A790616D1CA5C76A00EE600C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A790617A1CA5C79100EE600C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A79061871CA5C7B400EE600C = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -110,26 +750,186 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A790615D1CA5C6A200EE600C /* SNMPKit */,
+				A790616D1CA5C76A00EE600C /* SNMPKit iOS */,
+				A790617A1CA5C79100EE600C /* SNMPKit tvOS */,
+				A79061871CA5C7B400EE600C /* SNMPKit OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A790615C1CA5C6A200EE600C /* Resources */ = {
+		A790616C1CA5C76A00EE600C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79062951CA5C89F00EE600C /* Makefile.linux in Resources */,
+				A79062861CA5C89F00EE600C /* Makefile.gcc_solaris in Resources */,
+				A790627D1CA5C89F00EE600C /* Makefile.aix5 in Resources */,
+				A79062801CA5C89F00EE600C /* Makefile.bcc in Resources */,
+				A79062831CA5C89F00EE600C /* Makefile.dunix in Resources */,
+				A790629B1CA5C89F00EE600C /* Makefile.solaris in Resources */,
+				A79062891CA5C89F00EE600C /* Makefile.hpux11 in Resources */,
+				A790628F1CA5C89F00EE600C /* Makefile.iOS_armv7 in Resources */,
+				A79062981CA5C89F00EE600C /* Makefile.OSX in Resources */,
+				A790628C1CA5C89F00EE600C /* Makefile.iOS_armv6 in Resources */,
+				A79062921CA5C89F00EE600C /* Makefile.iOS_Sim in Resources */,
+				A790625F1CA5C89F00EE600C /* common.mk in Resources */,
+				A79062DA1CA5CBCD00EE600C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061791CA5C79100EE600C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79062961CA5C89F00EE600C /* Makefile.linux in Resources */,
+				A79062871CA5C89F00EE600C /* Makefile.gcc_solaris in Resources */,
+				A79062DD1CA5CBD500EE600C /* Info-tvOS.plist in Resources */,
+				A790627E1CA5C89F00EE600C /* Makefile.aix5 in Resources */,
+				A79062811CA5C89F00EE600C /* Makefile.bcc in Resources */,
+				A79062841CA5C89F00EE600C /* Makefile.dunix in Resources */,
+				A790629C1CA5C89F00EE600C /* Makefile.solaris in Resources */,
+				A790628A1CA5C89F00EE600C /* Makefile.hpux11 in Resources */,
+				A79062901CA5C89F00EE600C /* Makefile.iOS_armv7 in Resources */,
+				A79062991CA5C89F00EE600C /* Makefile.OSX in Resources */,
+				A790628D1CA5C89F00EE600C /* Makefile.iOS_armv6 in Resources */,
+				A79062931CA5C89F00EE600C /* Makefile.iOS_Sim in Resources */,
+				A79062601CA5C89F00EE600C /* common.mk in Resources */,
+				A79062DB1CA5CBCF00EE600C /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061861CA5C7B400EE600C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79062971CA5C89F00EE600C /* Makefile.linux in Resources */,
+				A79062881CA5C89F00EE600C /* Makefile.gcc_solaris in Resources */,
+				A790627F1CA5C89F00EE600C /* Makefile.aix5 in Resources */,
+				A79062821CA5C89F00EE600C /* Makefile.bcc in Resources */,
+				A79062851CA5C89F00EE600C /* Makefile.dunix in Resources */,
+				A790629D1CA5C89F00EE600C /* Makefile.solaris in Resources */,
+				A790628B1CA5C89F00EE600C /* Makefile.hpux11 in Resources */,
+				A79062911CA5C89F00EE600C /* Makefile.iOS_armv7 in Resources */,
+				A790629A1CA5C89F00EE600C /* Makefile.OSX in Resources */,
+				A790628E1CA5C89F00EE600C /* Makefile.iOS_armv6 in Resources */,
+				A79062941CA5C89F00EE600C /* Makefile.iOS_Sim in Resources */,
+				A79062611CA5C89F00EE600C /* common.mk in Resources */,
+				A79062DC1CA5CBD000EE600C /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A79061591CA5C6A200EE600C /* Sources */ = {
+		A79061691CA5C76A00EE600C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A79062621CA5C89F00EE600C /* counter.cpp in Sources */,
+				A79062591CA5C89F00EE600C /* asn1.cpp in Sources */,
+				A79062BF1CA5C89F00EE600C /* target.cpp in Sources */,
+				A79062BC1CA5C89F00EE600C /* snmpmsg.cpp in Sources */,
+				A79062CB1CA5C89F00EE600C /* v3.cpp in Sources */,
+				A79062711CA5C89F00EE600C /* idea.cpp in Sources */,
+				A79062681CA5C89F00EE600C /* eventlist.cpp in Sources */,
+				A79062B91CA5C89F00EE600C /* sha.cpp in Sources */,
+				A790626E1CA5C89F00EE600C /* gauge.cpp in Sources */,
+				A79062B31CA5C89F00EE600C /* pdu.cpp in Sources */,
+				A790626B1CA5C89F00EE600C /* eventlistholder.cpp in Sources */,
+				A79062CE1CA5C89F00EE600C /* vb.cpp in Sources */,
+				A790627A1CA5C89F00EE600C /* log.cpp in Sources */,
+				A79062AD1CA5C89F00EE600C /* octet.cpp in Sources */,
+				A79062D71CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */,
+				A79062A11CA5C89F00EE600C /* mp_v3.cpp in Sources */,
+				A79062A41CA5C89F00EE600C /* msec.cpp in Sources */,
+				A79062C51CA5C89F00EE600C /* usm_v3.cpp in Sources */,
+				A79062B01CA5C89F00EE600C /* oid.cpp in Sources */,
+				A79062C81CA5C89F00EE600C /* uxsnmp.cpp in Sources */,
+				A79062A71CA5C89F00EE600C /* msgqueue.cpp in Sources */,
+				A79062AA1CA5C89F00EE600C /* notifyqueue.cpp in Sources */,
+				A79062741CA5C89F00EE600C /* integer.cpp in Sources */,
+				A79062561CA5C89F00EE600C /* address.cpp in Sources */,
+				A79062B61CA5C89F00EE600C /* reentrant.cpp in Sources */,
+				A79062C21CA5C89F00EE600C /* timetick.cpp in Sources */,
+				A790625C1CA5C89F00EE600C /* auth_priv.cpp in Sources */,
+				A79062771CA5C89F00EE600C /* IPv6Utility.cpp in Sources */,
+				A79062651CA5C89F00EE600C /* ctr64.cpp in Sources */,
+				A790629E1CA5C89F00EE600C /* md5c.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061761CA5C79100EE600C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79062631CA5C89F00EE600C /* counter.cpp in Sources */,
+				A790625A1CA5C89F00EE600C /* asn1.cpp in Sources */,
+				A79062C01CA5C89F00EE600C /* target.cpp in Sources */,
+				A79062BD1CA5C89F00EE600C /* snmpmsg.cpp in Sources */,
+				A79062CC1CA5C89F00EE600C /* v3.cpp in Sources */,
+				A79062721CA5C89F00EE600C /* idea.cpp in Sources */,
+				A79062691CA5C89F00EE600C /* eventlist.cpp in Sources */,
+				A79062BA1CA5C89F00EE600C /* sha.cpp in Sources */,
+				A790626F1CA5C89F00EE600C /* gauge.cpp in Sources */,
+				A79062B41CA5C89F00EE600C /* pdu.cpp in Sources */,
+				A790626C1CA5C89F00EE600C /* eventlistholder.cpp in Sources */,
+				A79062CF1CA5C89F00EE600C /* vb.cpp in Sources */,
+				A790627B1CA5C89F00EE600C /* log.cpp in Sources */,
+				A79062AE1CA5C89F00EE600C /* octet.cpp in Sources */,
+				A79062D81CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */,
+				A79062A21CA5C89F00EE600C /* mp_v3.cpp in Sources */,
+				A79062A51CA5C89F00EE600C /* msec.cpp in Sources */,
+				A79062C61CA5C89F00EE600C /* usm_v3.cpp in Sources */,
+				A79062B11CA5C89F00EE600C /* oid.cpp in Sources */,
+				A79062C91CA5C89F00EE600C /* uxsnmp.cpp in Sources */,
+				A79062A81CA5C89F00EE600C /* msgqueue.cpp in Sources */,
+				A79062AB1CA5C89F00EE600C /* notifyqueue.cpp in Sources */,
+				A79062751CA5C89F00EE600C /* integer.cpp in Sources */,
+				A79062571CA5C89F00EE600C /* address.cpp in Sources */,
+				A79062B71CA5C89F00EE600C /* reentrant.cpp in Sources */,
+				A79062C31CA5C89F00EE600C /* timetick.cpp in Sources */,
+				A790625D1CA5C89F00EE600C /* auth_priv.cpp in Sources */,
+				A79062781CA5C89F00EE600C /* IPv6Utility.cpp in Sources */,
+				A79062661CA5C89F00EE600C /* ctr64.cpp in Sources */,
+				A790629F1CA5C89F00EE600C /* md5c.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A79061831CA5C7B400EE600C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A79062641CA5C89F00EE600C /* counter.cpp in Sources */,
+				A790625B1CA5C89F00EE600C /* asn1.cpp in Sources */,
+				A79062C11CA5C89F00EE600C /* target.cpp in Sources */,
+				A79062BE1CA5C89F00EE600C /* snmpmsg.cpp in Sources */,
+				A79062CD1CA5C89F00EE600C /* v3.cpp in Sources */,
+				A79062731CA5C89F00EE600C /* idea.cpp in Sources */,
+				A790626A1CA5C89F00EE600C /* eventlist.cpp in Sources */,
+				A79062BB1CA5C89F00EE600C /* sha.cpp in Sources */,
+				A79062701CA5C89F00EE600C /* gauge.cpp in Sources */,
+				A79062B51CA5C89F00EE600C /* pdu.cpp in Sources */,
+				A790626D1CA5C89F00EE600C /* eventlistholder.cpp in Sources */,
+				A79062D01CA5C89F00EE600C /* vb.cpp in Sources */,
+				A790627C1CA5C89F00EE600C /* log.cpp in Sources */,
+				A79062AF1CA5C89F00EE600C /* octet.cpp in Sources */,
+				A79062D91CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */,
+				A79062A31CA5C89F00EE600C /* mp_v3.cpp in Sources */,
+				A79062A61CA5C89F00EE600C /* msec.cpp in Sources */,
+				A79062C71CA5C89F00EE600C /* usm_v3.cpp in Sources */,
+				A79062B21CA5C89F00EE600C /* oid.cpp in Sources */,
+				A79062CA1CA5C89F00EE600C /* uxsnmp.cpp in Sources */,
+				A79062A91CA5C89F00EE600C /* msgqueue.cpp in Sources */,
+				A79062AC1CA5C89F00EE600C /* notifyqueue.cpp in Sources */,
+				A79062761CA5C89F00EE600C /* integer.cpp in Sources */,
+				A79062581CA5C89F00EE600C /* address.cpp in Sources */,
+				A79062B81CA5C89F00EE600C /* reentrant.cpp in Sources */,
+				A79062C41CA5C89F00EE600C /* timetick.cpp in Sources */,
+				A790625E1CA5C89F00EE600C /* auth_priv.cpp in Sources */,
+				A79062791CA5C89F00EE600C /* IPv6Utility.cpp in Sources */,
+				A79062671CA5C89F00EE600C /* ctr64.cpp in Sources */,
+				A79062A01CA5C89F00EE600C /* md5c.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,6 +974,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -216,6 +1017,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/**";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
@@ -226,34 +1028,122 @@
 			};
 			name = Release;
 		};
-		A79061671CA5C6A200EE600C /* Debug */ = {
+		A79061741CA5C76A00EE600C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SNMPKit/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A79061751CA5C76A00EE600C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A79061811CA5C79100EE600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit tvOS/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = SNMPKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		A79061821CA5C79100EE600C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit tvOS/Info-tvOS.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = SNMPKit;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		A790618E1CA5C7B400EE600C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		A79061681CA5C6A200EE600C /* Release */ = {
+		A790618F1CA5C7B400EE600C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = SNMPKit/Info.plist;
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
+				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -270,11 +1160,27 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A79061661CA5C6A200EE600C /* Build configuration list for PBXNativeTarget "SNMPKit" */ = {
+		A79061731CA5C76A00EE600C /* Build configuration list for PBXNativeTarget "SNMPKit iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A79061671CA5C6A200EE600C /* Debug */,
-				A79061681CA5C6A200EE600C /* Release */,
+				A79061741CA5C76A00EE600C /* Debug */,
+				A79061751CA5C76A00EE600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A79061801CA5C79100EE600C /* Build configuration list for PBXNativeTarget "SNMPKit tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A79061811CA5C79100EE600C /* Debug */,
+				A79061821CA5C79100EE600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A790618D1CA5C7B400EE600C /* Build configuration list for PBXNativeTarget "SNMPKit OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A790618E1CA5C7B400EE600C /* Debug */,
+				A790618F1CA5C7B400EE600C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

@@ -6,7 +6,7 @@
 //  Copyright © 2016 Manlycode Industries. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for SNMPKit.
 FOUNDATION_EXPORT double SNMPKitVersionNumber;
