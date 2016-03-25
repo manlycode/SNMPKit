@@ -254,6 +254,9 @@
 		A79062DB1CA5CBCF00EE600C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79061631CA5C6A200EE600C /* Info.plist */; };
 		A79062DC1CA5CBD000EE600C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A79061631CA5C6A200EE600C /* Info.plist */; };
 		A79062DD1CA5CBD500EE600C /* Info-tvOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = A790617F1CA5C79100EE600C /* Info-tvOS.plist */; };
+		A7C2C2F11CA5E237005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C2C2F21CA5E243005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -527,6 +530,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C2C2F21CA5E243005002EC /* SNMPKit.h in Headers */,
 				A79062051CA5C89F00EE600C /* idea.h in Headers */,
 				A79062351CA5C89F00EE600C /* smival.h in Headers */,
 				A79062261CA5C89F00EE600C /* oid_def.h in Headers */,
@@ -573,6 +577,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C2C2F11CA5E237005002EC /* SNMPKit.h in Headers */,
 				A79062061CA5C89F00EE600C /* idea.h in Headers */,
 				A79062361CA5C89F00EE600C /* smival.h in Headers */,
 				A79062271CA5C89F00EE600C /* oid_def.h in Headers */,
@@ -619,6 +624,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */,
 				A79062071CA5C89F00EE600C /* idea.h in Headers */,
 				A79062371CA5C89F00EE600C /* smival.h in Headers */,
 				A79062281CA5C89F00EE600C /* oid_def.h in Headers */,
