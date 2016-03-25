@@ -259,7 +259,7 @@
 /* Begin PBXFileReference section */
 		A79061611CA5C6A200EE600C /* SNMPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNMPKit.h; path = SNMPKit/SNMPKit.h; sourceTree = "<group>"; };
 		A79061631CA5C6A200EE600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SNMPKit/Info.plist; sourceTree = "<group>"; };
-		A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SNMPKit iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A790616E1CA5C76A00EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A790617B1CA5C79100EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A790617F1CA5C79100EE600C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "SNMPKit tvOS/Info-tvOS.plist"; sourceTree = "<group>"; };
 		A79061881CA5C7B400EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -383,7 +383,7 @@
 		A790615F1CA5C6A200EE600C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */,
+				A790616E1CA5C76A00EE600C /* SNMPKit.framework */,
 				A790617B1CA5C79100EE600C /* SNMPKit.framework */,
 				A79061881CA5C7B400EE600C /* SNMPKit.framework */,
 			);
@@ -679,7 +679,7 @@
 			);
 			name = "SNMPKit iOS";
 			productName = "SNMPKit iOS";
-			productReference = A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */;
+			productReference = A790616E1CA5C76A00EE600C /* SNMPKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A790617A1CA5C79100EE600C /* SNMPKit tvOS */ = {
@@ -1040,7 +1040,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SNMPKit;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -1058,7 +1058,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SNMPKit;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
