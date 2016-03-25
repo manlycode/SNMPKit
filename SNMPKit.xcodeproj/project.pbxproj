@@ -262,7 +262,7 @@
 		A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SNMPKit iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A790617B1CA5C79100EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A790617F1CA5C79100EE600C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "SNMPKit tvOS/Info-tvOS.plist"; sourceTree = "<group>"; };
-		A79061881CA5C7B400EE600C /* SNMPKit OSX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "SNMPKit OSX.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A79061881CA5C7B400EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79061951CA5C89F00EE600C /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
 		A79061961CA5C89F00EE600C /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
 		A79061971CA5C89F00EE600C /* auth_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth_priv.h; sourceTree = "<group>"; };
@@ -385,7 +385,7 @@
 			children = (
 				A790616E1CA5C76A00EE600C /* SNMPKit iOS.framework */,
 				A790617B1CA5C79100EE600C /* SNMPKit.framework */,
-				A79061881CA5C7B400EE600C /* SNMPKit OSX.framework */,
+				A79061881CA5C7B400EE600C /* SNMPKit.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -715,7 +715,7 @@
 			);
 			name = "SNMPKit OSX";
 			productName = "SNMPKit OSX";
-			productReference = A79061881CA5C7B400EE600C /* SNMPKit OSX.framework */;
+			productReference = A79061881CA5C7B400EE600C /* SNMPKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -1120,7 +1120,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SNMPKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -1142,7 +1142,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SNMPKit;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -1167,6 +1167,7 @@
 				A79061751CA5C76A00EE600C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79061801CA5C79100EE600C /* Build configuration list for PBXNativeTarget "SNMPKit tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1175,6 +1176,7 @@
 				A79061821CA5C79100EE600C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A790618D1CA5C7B400EE600C /* Build configuration list for PBXNativeTarget "SNMPKit OSX" */ = {
 			isa = XCConfigurationList;
@@ -1183,6 +1185,7 @@
 				A790618F1CA5C7B400EE600C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
