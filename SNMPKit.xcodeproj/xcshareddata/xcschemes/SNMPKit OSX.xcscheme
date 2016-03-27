@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A79061871CA5C7B400EE600C"
-               BuildableName = "SNMPKit OSX.framework"
+               BuildableName = "SNMPKit.framework"
                BlueprintName = "SNMPKit OSX"
                ReferencedContainer = "container:SNMPKit.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A79061871CA5C7B400EE600C"
-            BuildableName = "SNMPKit OSX.framework"
+            BuildableName = "SNMPKit.framework"
             BlueprintName = "SNMPKit OSX"
             ReferencedContainer = "container:SNMPKit.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A79061871CA5C7B400EE600C"
-            BuildableName = "SNMPKit OSX.framework"
+            BuildableName = "SNMPKit.framework"
             BlueprintName = "SNMPKit OSX"
             ReferencedContainer = "container:SNMPKit.xcodeproj">
          </BuildableReference>

@@ -16,6 +16,5 @@ FOUNDATION_EXPORT double SNMPKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char SNMPKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SNMPKit/PublicHeader.h>
+
 #import <SNMPKit/XISMobile_SNMP_PP.h>
-
-
