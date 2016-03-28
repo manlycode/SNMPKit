@@ -207,13 +207,13 @@
 		A79062D01CA5C89F00EE600C /* vb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A79061E31CA5C89F00EE600C /* vb.cpp */; };
 		A79062D11CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
 		A79062D21CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
-		A79062D31CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		A79062D41CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A79062D51CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A79062D71CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A79062D81CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A79062D91CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
+		A7A2EAC41CA96C8C00969515 /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F11CA5E237005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F21CA5E243005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -584,9 +584,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */,
+				A7A2EAC41CA96C8C00969515 /* XIS_SNMPDefinitions.h in Headers */,
 				A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
-				A79062D31CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */,
+				A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */,
 				A79062071CA5C89F00EE600C /* idea.h in Headers */,
 				A79062371CA5C89F00EE600C /* smival.h in Headers */,
 				A79062281CA5C89F00EE600C /* oid_def.h in Headers */,
