@@ -214,7 +214,6 @@
 		A79062D81CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A79062D91CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A7A2EAC41CA96C8C00969515 /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7A2EAC61CA9725E00969515 /* XIS_SNMPDefinitions.h in Frameworks */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; };
 		A7C2C2F11CA5E237005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F21CA5E243005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -322,7 +321,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7A2EAC61CA9725E00969515 /* XIS_SNMPDefinitions.h in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
