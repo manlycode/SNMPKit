@@ -73,7 +73,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import <SNMPKit/XIS_SNMPDefinitions.h>
+#import "XIS_SNMPDefinitions.h"
 
 /** Main class, containing three common commandline commands as methods
  
