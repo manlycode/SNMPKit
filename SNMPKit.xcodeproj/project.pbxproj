@@ -585,8 +585,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */,
-				A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
 				A79062D31CA5C89F00EE600C /* XIS_SNMPDefinitions.h in Headers */,
+				A79062D61CA5C89F00EE600C /* XISMobile_SNMP_PP.h in Headers */,
 				A79062071CA5C89F00EE600C /* idea.h in Headers */,
 				A79062371CA5C89F00EE600C /* smival.h in Headers */,
 				A79062281CA5C89F00EE600C /* oid_def.h in Headers */,
