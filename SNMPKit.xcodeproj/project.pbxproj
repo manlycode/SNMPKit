@@ -214,17 +214,29 @@
 		A79062D81CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A79062D91CA5C89F00EE600C /* XISMobile_SNMP_PP.mm in Sources */ = {isa = PBXBuildFile; fileRef = A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */; };
 		A7A2EAC41CA96C8C00969515 /* XIS_SNMPDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AE58F71CB2BF0A0043ACE0 /* SNMPKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7AE58F61CB2BF0A0043ACE0 /* SNMPKitTests.swift */; };
+		A7AE58F91CB2BF0A0043ACE0 /* SNMPKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A790617B1CA5C79100EE600C /* SNMPKit.framework */; };
 		A7C2C2F11CA5E237005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F21CA5E243005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7C2C2F31CA5E250005002EC /* SNMPKit.h in Headers */ = {isa = PBXBuildFile; fileRef = A79061611CA5C6A200EE600C /* SNMPKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7AE58FA1CB2BF0A0043ACE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A79061551CA5C6A200EE600C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A790617A1CA5C79100EE600C;
+			remoteInfo = "SNMPKit tvOS";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A79061611CA5C6A200EE600C /* SNMPKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SNMPKit.h; path = SNMPKit/SNMPKit.h; sourceTree = "<group>"; };
 		A79061631CA5C6A200EE600C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = SNMPKit/Info.plist; sourceTree = "<group>"; };
 		A790616E1CA5C76A00EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A790617B1CA5C79100EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A790617F1CA5C79100EE600C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "SNMPKit tvOS/Info-tvOS.plist"; sourceTree = "<group>"; };
+		A790617F1CA5C79100EE600C /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-tvOS.plist"; path = "SNMPKit/Info-tvOS.plist"; sourceTree = "<group>"; };
 		A79061881CA5C7B400EE600C /* SNMPKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SNMPKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79061951CA5C89F00EE600C /* address.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = address.h; sourceTree = "<group>"; };
 		A79061961CA5C89F00EE600C /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
@@ -307,6 +319,9 @@
 		A79061E41CA5C89F00EE600C /* XIS_SNMPDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XIS_SNMPDefinitions.h; sourceTree = "<group>"; };
 		A79061E51CA5C89F00EE600C /* XISMobile_SNMP_PP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XISMobile_SNMP_PP.h; sourceTree = "<group>"; };
 		A79061E61CA5C89F00EE600C /* XISMobile_SNMP_PP.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = XISMobile_SNMP_PP.mm; sourceTree = "<group>"; };
+		A7AE58F41CB2BF0A0043ACE0 /* SNMPKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNMPKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7AE58F61CB2BF0A0043ACE0 /* SNMPKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNMPKitTests.swift; sourceTree = "<group>"; };
+		A7AE58F81CB2BF0A0043ACE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -331,6 +346,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7AE58F11CB2BF0A0043ACE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE58F91CB2BF0A0043ACE0 /* SNMPKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -339,6 +362,7 @@
 			children = (
 				A79061901CA5C83D00EE600C /* Source */,
 				A79061911CA5C84B00EE600C /* Supporting Files */,
+				A7AE58F51CB2BF0A0043ACE0 /* SNMPKitTests */,
 				A790615F1CA5C6A200EE600C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -349,6 +373,7 @@
 				A790616E1CA5C76A00EE600C /* SNMPKit.framework */,
 				A790617B1CA5C79100EE600C /* SNMPKit.framework */,
 				A79061881CA5C7B400EE600C /* SNMPKit.framework */,
+				A7AE58F41CB2BF0A0043ACE0 /* SNMPKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -481,6 +506,15 @@
 				A79061E31CA5C89F00EE600C /* vb.cpp */,
 			);
 			path = src;
+			sourceTree = "<group>";
+		};
+		A7AE58F51CB2BF0A0043ACE0 /* SNMPKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7AE58F61CB2BF0A0043ACE0 /* SNMPKitTests.swift */,
+				A7AE58F81CB2BF0A0043ACE0 /* Info.plist */,
+			);
+			path = SNMPKitTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -684,12 +718,31 @@
 			productReference = A79061881CA5C7B400EE600C /* SNMPKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		A7AE58F31CB2BF0A0043ACE0 /* SNMPKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7AE58FE1CB2BF0A0043ACE0 /* Build configuration list for PBXNativeTarget "SNMPKitTests" */;
+			buildPhases = (
+				A7AE58F01CB2BF0A0043ACE0 /* Sources */,
+				A7AE58F11CB2BF0A0043ACE0 /* Frameworks */,
+				A7AE58F21CB2BF0A0043ACE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7AE58FB1CB2BF0A0043ACE0 /* PBXTargetDependency */,
+			);
+			name = SNMPKitTests;
+			productName = SNMPKitTests;
+			productReference = A7AE58F41CB2BF0A0043ACE0 /* SNMPKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		A79061551CA5C6A200EE600C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Manlycode Industries";
 				TargetAttributes = {
@@ -700,6 +753,9 @@
 						CreatedOnToolsVersion = 7.3;
 					};
 					A79061871CA5C7B400EE600C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					A7AE58F31CB2BF0A0043ACE0 = {
 						CreatedOnToolsVersion = 7.3;
 					};
 				};
@@ -719,6 +775,7 @@
 				A790616D1CA5C76A00EE600C /* SNMPKit iOS */,
 				A790617A1CA5C79100EE600C /* SNMPKit tvOS */,
 				A79061871CA5C7B400EE600C /* SNMPKit OSX */,
+				A7AE58F31CB2BF0A0043ACE0 /* SNMPKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -739,6 +796,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A79061861CA5C7B400EE600C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7AE58F21CB2BF0A0043ACE0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -859,7 +923,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7AE58F01CB2BF0A0043ACE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7AE58F71CB2BF0A0043ACE0 /* SNMPKitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7AE58FB1CB2BF0A0043ACE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A790617A1CA5C79100EE600C /* SNMPKit tvOS */;
+			targetProxy = A7AE58FA1CB2BF0A0043ACE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		A79061641CA5C6A200EE600C /* Debug */ = {
@@ -997,7 +1077,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit tvOS/Info-tvOS.plist";
+				INFOPLIST_FILE = "SNMPKit/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
@@ -1017,7 +1097,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "$(SRCROOT)/SNMPKit tvOS/Info-tvOS.plist";
+				INFOPLIST_FILE = "SNMPKit/Info-tvOS.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.manlycode.SNMPKit;
@@ -1078,6 +1158,31 @@
 			};
 			name = Release;
 		};
+		A7AE58FC1CB2BF0A0043ACE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SNMPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectiveidea.SNMPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		A7AE58FD1CB2BF0A0043ACE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SNMPKitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.collectiveidea.SNMPKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1113,6 +1218,15 @@
 			buildConfigurations = (
 				A790618E1CA5C7B400EE600C /* Debug */,
 				A790618F1CA5C7B400EE600C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7AE58FE1CB2BF0A0043ACE0 /* Build configuration list for PBXNativeTarget "SNMPKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7AE58FC1CB2BF0A0043ACE0 /* Debug */,
+				A7AE58FD1CB2BF0A0043ACE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
